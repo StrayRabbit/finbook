@@ -1,0 +1,4 @@
+rtest:
+  script:
+    - cd User.API
+    - docker-compose up -d --build --force-recreate
